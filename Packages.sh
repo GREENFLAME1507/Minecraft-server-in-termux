@@ -25,14 +25,14 @@ case $choice in
     1)
         clear
         echo "BEDROCK SERVER INSTALLING........"
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/server/Bedrock-server.sh
+        cd Minecraft-server-in-termux/server/Bedrock-server.sh
         chmod +x Bedrock-server.sh
         ./bedrock-server.sh
         ;;
     2)
         clear
         echo "You chose Option 2"
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/server/java-server.sh
+        Minecraft-server-in-termux/server/java-server.sh
         chmod +x java-server.sh
         ./java-server.sh
         ;;
