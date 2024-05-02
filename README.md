@@ -30,6 +30,10 @@ then paste the following (This might take a while ...):
  apt update && apt upgrade -y
  apt install git 
  apt install wget
+```
+
+now to git clone into this repo :
+```
  git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
 ```
 Then cd to the cloned dir using :
