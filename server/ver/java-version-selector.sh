@@ -21,6 +21,7 @@ case $choice in
         echo "installing 1.20.5........"
         wget "https://piston-data.mojang.com/v1/objects/79493072f65e17243fd36a699c9a96b4381feb91/server.jar"
         java -jar server.jar
+        clear
         echo "run the following command to start the server"
         echo "java -Xmx1G -Xms3G -jar minecraft_server.1.20.5.jar nogui"
         ;;
