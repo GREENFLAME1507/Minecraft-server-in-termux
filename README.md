@@ -15,7 +15,10 @@ apt upgrade -y
 ```
 pkg install git
 pkg install wget
-wget https://raw.githubusercontent.com/Minecraft-server-in-termux/installer.sh
+```
+Use this to install ubuntu for anlinux
+```
+pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
 ```
 
 Then after ubuntu installed 
