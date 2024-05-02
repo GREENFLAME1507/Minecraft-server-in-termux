@@ -1,8 +1,8 @@
 #!/bin/bash
-echo "installing packages........"
-apt install sudo 
+echo "installing packages........" 
 apt update 
 apt upgrade -y
+apt install curl -y
 apt install sudo -y
 sudo apt update -y             
 apt install software-properties-common -y
@@ -17,6 +17,7 @@ clear
 clear
 ip -v 
 sudo apt install ufw -y 
+sudo update-rc.d ufw defaults
 service ufw start
 
 sudo ufw allow 25565/tcp
