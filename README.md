@@ -1,6 +1,6 @@
 https://github.com/GREENFLAME1507/Minecraft-server-in-termux/mst.png
 ![alt text](https://github.com/GREENFLAME1507/Minecraft-server-in-termux/mst.png?raw=true)
-
+![Alt text](relative%20https://github.com/GREENFLAME1507/Minecraft-server-in-termux/mst.png?raw=true "Title")
 
 
 ## Minecraft server in termux 
