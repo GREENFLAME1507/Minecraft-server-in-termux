@@ -10,16 +10,25 @@ To start
 type the following the terminal
 ```
 apt update
-apt upgrade 
+```
+```
+apt upgrade
+```
+```
 pkg install git
+```
+```
 pkg install wget
+```
+```
 wget https://raw.githubusercontent.com/Minecraft-server-in-termux/installer.sh
-
+```
 ```
 Then after ubuntu installed 
 start ubuntu with :
 ```
 ./start-ubuntu.sh
+```
 ```
 then paste the following :
 ```
