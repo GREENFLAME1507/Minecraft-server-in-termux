@@ -4,7 +4,6 @@ apt install sudo
 apt update 
 apt upgrade -y
 apt install sudo -y
-sudo add-apt-repository ppa:openjdk-r/ppa -y
 sudo apt update -y             
 apt install software-properties-common -y
 apt-add-repository universe -y
@@ -12,6 +11,7 @@ apt-get install systemd libpam-systemd systemd-ui -y
 sudo apt install openjdk-17-jre-headless -y
 sudo apt install default-jdk -y
 sudo apt install iproute2 -y
+apt install software-properties-common -y
 ip -v 
 sudo apt install ufw -y 
 sudo ufw enable
