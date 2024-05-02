@@ -23,7 +23,7 @@ sudo ufw allow 25565/tcp
 sudo ufw allow 25565/udp
 CLEAR
 
-echo "ENTER THE NUMBER OF THE OTION YOU WANT:"
+echo "ENTER THE NUMBER OF THE OPTION YOU WANT:"
 echo "1. JAVA SERVER"
 echo "2. BEDROCK SERVER"
 read -p "Enter your choice (1 or 2): " choice
