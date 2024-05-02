@@ -101,4 +101,3 @@ echo "You can now launch Ubuntu with the ./${bin} script"
 
 
 clear
-./start-ubuntu.sh
