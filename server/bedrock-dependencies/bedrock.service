@@ -1,0 +1,17 @@
+[Unit]
+Description=Minecraft Bedrock Server
+After=network.target
+
+[Service]
+User=minecraft-runner
+Group=minecraft-runner
+
+Type=Simple
+
+WorkingDirectory=/home/minecraft-runner/bedrock-server
+ExecStart=/bin/sh -c "LD_LIBRARY_PATH=. ./bedrock_server"
+TimeoutStopSec=20
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
