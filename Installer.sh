@@ -3,8 +3,8 @@
 # Function to perform the installation
 install() {
 echo "Installing......."
-        chmod +x packages.sh
-        ./packages.sh
+        chmod +x Packages.sh
+        ./Packages.sh
         clear 
          
 
