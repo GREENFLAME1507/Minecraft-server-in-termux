@@ -13,7 +13,7 @@ ip -v
 sudo apt install ufw
 sudo ufw enable
 CLEAR
-
+mkdir 
 
 echo "ENTER THE NUMBER OF THE OTION YOU WANT:"
 echo "1. JAVA SERVER"
@@ -25,14 +25,14 @@ case $choice in
     1)
         clear
         echo "BEDROCK SERVER INSTALLING........"
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/Bedrock-server.sh
+        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/server/Bedrock-server.sh
         chmod +x Bedrock-server.sh
         ./bedrock-server.sh
         ;;
     2)
         clear
         echo "You chose Option 2"
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/java-server.sh
+        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/server/java-server.sh
         chmod +x java-server.sh
         ./java-server.sh
         ;;
