@@ -10,9 +10,7 @@ To start
 type the following the terminal
 ```
 apt update
-```
-```
-apt upgrade
+apt upgrade -y
 ```
 ```
 pkg install git
