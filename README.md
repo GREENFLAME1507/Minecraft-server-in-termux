@@ -27,9 +27,10 @@ wget https://raw.githubusercontent.com/Minecraft-server-in-termux/installer.sh
 Then after ubuntu installed 
 start ubuntu with :
 ```
+```
 ./start-ubuntu.sh
 ```
-```
+
 then paste the following :
 ```
  apt update && apt upgrade -y
