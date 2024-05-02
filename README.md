@@ -34,7 +34,7 @@ then paste the following (This might take a while ...):
 ```
 Then cd to the cloned dir using :
 ```
-cd 
+cd Minecraft-server-in-termux
 ```
 Then to run the installer:
 ```
