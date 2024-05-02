@@ -47,8 +47,12 @@ chmod +x Installer.sh
 ```
 Follow the instruction given to Complete the installation!
 
-## Bugs
-  As this project is still under development Bugs and issues might arise 
+## Bugs / Known issues
+  As this project is still under development Bugs and issues might arise i will try to fix them as soon as possible
+  
+ {Android} ~> UFW might not work (temporary fix : use your IP and connect to the server or install pterodactyl panel script(bash <(curl -s https://pterodactyl-installer.se))  and set it up continue this script though this method may use more storage and ram. ) [this occurs due to the anlinux ubuntu and the architecture of the cpu aarch64]
+  Any bugs that arise will be attempted to be fixed so please pardon me 
+  
   **USE AT YOUR OWN RISK**
 
   
