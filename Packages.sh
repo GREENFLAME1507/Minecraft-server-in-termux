@@ -7,6 +7,7 @@ apt install sudo -y
 sudo add-apt-repository ppa:openjdk-r/ppa
 sudo apt update
 sudo apt install openjdk-17-jre-headless
+sudo apt install default-jdk
 sudo apt install iproute2
 ip -v 
 sudo apt install ufw
