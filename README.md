@@ -1,5 +1,5 @@
-
-
+https://github.com/GREENFLAME1507/Minecraft-server-in-termux/mst.png
+![alt text](https://github.com/GREENFLAME1507/Minecraft-server-in-termux/mst.png?raw=true)
 
 
 
