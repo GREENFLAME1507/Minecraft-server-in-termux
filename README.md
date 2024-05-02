@@ -6,6 +6,15 @@
   deb based
 
 ##Installation
+```
+ git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
+```
+
+Then to run the installer:
+```sh
+./installer.sh
+```
+Follow the instruction given to Complete the installation!
 
 ##Bugs
   As this project is still under development Bugs and issues might arise 
@@ -17,4 +26,4 @@ Anlinux: for the lightweight ubuntu install
 mojang maybe?
 fabric also?
 
-                                      ##THANK YOU 
+##THANK YOU 
