@@ -25,14 +25,14 @@ case $choice in
     1)
         clear
         echo "BEDROCK SERVER INSTALLING........"
-        cd Minecraft-server-in-termux/server/Bedrock-server.sh
+        cd Minecraft-server-in-termux/server/
         chmod +x Bedrock-server.sh
         ./bedrock-server.sh
         ;;
     2)
         clear
         echo "You chose Option 2"
-        Minecraft-server-in-termux/server/java-server.sh
+        Minecraft-server-in-termux/server/
         chmod +x java-server.sh
         ./java-server.sh
         ;;
