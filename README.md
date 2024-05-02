@@ -38,7 +38,7 @@ cd Minecraft-server-in-termux
 ```
 Then to run the installer:
 ```
-./installer.sh
+./Installer.sh
 ```
 Follow the instruction given to Complete the installation!
 
