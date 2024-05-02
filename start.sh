@@ -1,7 +1,7 @@
 #!/bin/bash
 echo "Starting install............"
 
-wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/ubuntu.sh
+wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/os/ubuntu.sh
 chmod +x ubuntu.sh
 ./ubuntu.sh
 clear 
