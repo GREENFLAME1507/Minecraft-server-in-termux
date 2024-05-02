@@ -1,20 +1,4 @@
 #!/bin/bash
-echo "Starting install............"
-
-wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/os/ubuntu.sh
-chmod +x ubuntu.sh
-./ubuntu.sh
-clear 
-
-echo "Run the following command within ubuntu install"
-echo "wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/packages.sh"
-exit 
-
-
-
-
-
-#!/bin/bash
 
 # Prompt the user to choose between Option 1 and Option 2
 echo "Please choose an option:"
