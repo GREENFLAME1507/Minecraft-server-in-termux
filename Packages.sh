@@ -12,9 +12,13 @@ sudo apt install openjdk-17-jre-headless -y
 sudo apt install default-jdk -y
 sudo apt install iproute2 -y
 apt install software-properties-common -y
+clear
+clear
+clear
 ip -v 
 sudo apt install ufw -y 
 sudo ufw enable
+
 sudo ufw allow 25565/tcp
 sudo ufw allow 25565/udp
 CLEAR
