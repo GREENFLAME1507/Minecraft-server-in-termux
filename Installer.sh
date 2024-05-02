@@ -1,5 +1,15 @@
 #!/bin/bash
-
+echo "Veryfying files"
+ls
+chmod +x Packages.sh
+cd server 
+chmod +x Bedrock-server.sh
+chmod +x java-server.sh
+cd ver
+chmod +x fabric-ver-selector.sh
+chmod +x java-version-selector.sh
+cd 
+cd Minecraft-server-in-termux
 # Function to perform the installation
 install() {
 echo "Installing......."
