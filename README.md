@@ -52,6 +52,29 @@ chmod +x Installer.sh
 ```
 Follow the instruction given to Complete the installation!
 
+## Starting the server
+~> Java
+once the install is complete type cd mc and in the mc folder type 
+
+ Fabric:
+```
+java -Xmx3G -jar server.jar nogui
+```
+the G represents Gigabytes 3 represents the no of gb
+
+vanilla:
+```
+java -Xmx1G -Xms3G -jar server.jar nogui
+```
+the G represents Gigabytes 3 represents the no of gb -Xmx1G <~ is the min val   -Xms3G<~ is the max val
+
+
+~> Bedrock
+to start the server just type in the cmd 
+```
+LD_LIBRARY_PATH=. ./bedrock_server
+```
+
 ## Bugs / Known issues
   As this project is still under development Bugs and issues might arise i will try to fix them as soon as possible
   
