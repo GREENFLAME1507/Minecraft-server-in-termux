@@ -1,5 +1,4 @@
 #!/bin/bash
-#!/bin/bash
 
 # Prompt the user to choose between Option 1 and Option 2
 echo "select the version you wnt to install :"
