@@ -75,6 +75,8 @@ to start the server just type in the cmd
 LD_LIBRARY_PATH=. ./bedrock_server
 ```
 
+ENJOY▶️
+
 ## Bugs / Known issues
   As this project is still under development Bugs and issues might arise i will try to fix them as soon as possible
   
