@@ -40,7 +40,7 @@ case $choice in
     2)
         clear
         echo "You chose Option 2"
-        Minecraft-server-in-termux/server/
+        cd server/
         chmod +x java-server.sh
         ./java-server.sh
         ;;
