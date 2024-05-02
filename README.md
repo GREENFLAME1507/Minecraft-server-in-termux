@@ -6,12 +6,29 @@
   deb based
 
 ## Installation
+To start 
+type the following the terminal
 ```
+apt update && apt upgrade-y
+apt install git
+apt install wget
+
+```
+Then after ubuntu installed 
+start ubuntu with :
+```
+./start-ubuntu.sh
+```
+then paste the following :
+```
+ apt update && apt upgrade -y
+ apt install git
+ apt install wget
  git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
 ```
 
 Then to run the installer:
-```sh
+```
 ./installer.sh
 ```
 Follow the instruction given to Complete the installation!
