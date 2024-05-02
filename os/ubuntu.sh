@@ -101,3 +101,9 @@ echo "You can now launch Ubuntu with the ./${bin} script"
 
 
 clear
+
+echo "Run the following command within ubuntu install"
+        echo "wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/packages.sh"
+        echo "and run "./packages.sh""
+	exit
+	
