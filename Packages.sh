@@ -3,25 +3,23 @@ echo "installing packages........"
 apt update 
 apt upgrade -y
 apt install curl -y
-apt install sudo -y
-sudo apt update -y             
+apt install   -y
+apt update -y             
 apt install software-properties-common -y
 apt-add-repository universe -y
 apt-get install systemd libpam-systemd systemd-ui -y 
-sudo apt install openjdk-17-jre-headless -y
-sudo apt install default-jdk -y
-sudo apt install iproute2 -y
+apt install openjdk-17-jre-headless -y
+apt install default-jdk -y
+apt install iproute2 -y
 apt install software-properties-common -y
 clear
-clear
-clear
-ip -v 
-sudo apt install ufw -y 
-sudo update-rc.d ufw defaults
+ip -V
+  apt install ufw -y 
+  update-rc.d ufw defaults
 service ufw start
 
-sudo ufw allow 25565/tcp
-sudo ufw allow 25565/udp
+  ufw allow 25565/tcp
+  ufw allow 25565/udp
 CLEAR
 
 echo "ENTER THE NUMBER OF THE OPTION YOU WANT:"
