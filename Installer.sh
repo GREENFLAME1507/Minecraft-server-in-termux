@@ -6,7 +6,7 @@ echo "Installing......."
         chmod +x packages.sh
         ./packages.sh
         clear 
-        exit 
+         
 
 
     echo "Installation complete."
