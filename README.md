@@ -12,10 +12,6 @@ type the following the terminal
 apt update
 apt upgrade -y
 ```
-```
-pkg install git
-pkg install wget
-```
 Use this to install ubuntu for anlinux
 ```
 pkg install wget openssl-tool proot -y && hash -r && wget https://raw.githubusercontent.com/EXALAB/AnLinux-Resources/master/Scripts/Installer/Ubuntu/ubuntu.sh && bash ubuntu.sh
@@ -28,14 +24,17 @@ start ubuntu with :
 ./start-ubuntu.sh
 ```
 
-then paste the following :
+then paste the following (This might take a while ...):
 ```
  apt update && apt upgrade -y
  apt install git
  apt install wget
  git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
 ```
-
+Then cd to the cloned dir using :
+```
+cd 
+```
 Then to run the installer:
 ```
 ./installer.sh
@@ -53,3 +52,4 @@ mojang maybe?
 fabric also?
 
 ## THANK YOU 
+  Please report any bugs within the code as it is not posssible for me to test everything 
