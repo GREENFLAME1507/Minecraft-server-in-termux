@@ -11,14 +11,14 @@ read -p "Enter your choice (1 or 2): " choice
 case $choice in
     1)
         echo "Vanilla server installing......."
-        cd Minecraft-server-in-termux/server/ver
+        cd ver
         chmod +x java-version-selector.sh
         ./java-version-selector.sh
         clear
         ;;
     2)
         echo "Fabric server installing.........."
-        Minecraft-server-in-termux/server/ver
+        cd ver
         chmod +x fabric-ver-selector.sh
         ./fabric-ver-selector.sh
         clear
