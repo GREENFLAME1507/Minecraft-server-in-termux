@@ -12,6 +12,7 @@ case $choice in
         echo "installing 1.20.4......."
         wget "https://piston-data.mojang.com/v1/objects/8dd1a28015f51b1803213892b50b7b4fc76e594d/server.jar"
         java -jar server.jar
+        stop
         clear
         echo "run the following command to start the server"
         echo "java -Xmx1G -Xms3G -jar minecraft_server.1.20.4.jar nogui"
@@ -20,6 +21,7 @@ case $choice in
         echo "installing 1.20.5........"
         wget "https://piston-data.mojang.com/v1/objects/79493072f65e17243fd36a699c9a96b4381feb91/server.jar"
         java -jar server.jar
+        stop
         clear
         echo "run the following command to start the server"
         echo "java -Xmx1G -Xms3G -jar minecraft_server.1.20.5.jar nogui"
