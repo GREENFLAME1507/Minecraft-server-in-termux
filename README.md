@@ -1,3 +1,8 @@
+
+
+
+
+
 ## Minecraft server in termux 
    This project aims at installing and hosting minecraft in Android devices using the Termux app
 
