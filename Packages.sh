@@ -4,7 +4,8 @@ apt update
 apt upgrade -y
 apt install curl -y
 apt install   -y
-apt update -y             
+apt update -y
+apt install nano -y 
 apt install software-properties-common -y
 apt-add-repository universe -y
 apt-get install systemd libpam-systemd systemd-ui -y 
