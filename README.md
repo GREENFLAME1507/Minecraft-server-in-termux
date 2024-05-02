@@ -26,4 +26,4 @@ Anlinux: for the lightweight ubuntu install
 mojang maybe?
 fabric also?
 
-##THANK YOU 
+## THANK YOU 
