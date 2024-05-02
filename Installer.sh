@@ -2,9 +2,7 @@
 
 # Function to perform the installation
 install() {
-echo "Installing ubuntu......."
-        git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
-        cd Minecraft-server-in-termux
+echo "Installing......."
         chmod +x packages.sh
         ./packages.sh
         clear 
