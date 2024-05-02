@@ -1,14 +1,20 @@
-hi so this is an script for termux to install minimal ubuntu and install some dependencies and other packages to run a minecraft server !!
+##Minecraft server in termux 
+   This project aims at installing and hosting minecraft in Android devices using the Termux app
 
-side not i am not very familiar with bash so expect some bugs and repot to me if possible 
+##Support
+  As this project dosen't use specific aarch64 links this can be used in any linux distros which are 
+  deb based
 
-thank yoy for using my script 
+##Installation
 
-credits:
-anlinux for the ubuntu script 
-me for the others 
-and mojang maybe 
+##Bugs
+  As this project is still under development Bugs and issues might arise 
+  **USE AT YOUR OWN RISK**
 
+  
+##Credits
+Anlinux: for the lightweight ubuntu install
+mojang maybe?
+fabric also?
 
-INSTALLATION:
-run the Start.sh and the setup will start
+                                      ##THANK YOU 
