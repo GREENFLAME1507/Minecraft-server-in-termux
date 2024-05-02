@@ -25,9 +25,10 @@ start ubuntu with :
 ```
 
 then paste the following (This might take a while ...):
+{it is recommended to paste the git pkg command seprately as some might expereince errors when run}
 ```
  apt update && apt upgrade -y
- apt install git      ##it is recommended to paste the git pkg command seprately
+ apt install git 
  apt install wget
  git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
 ```
