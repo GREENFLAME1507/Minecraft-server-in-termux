@@ -14,6 +14,8 @@ read -p "Enter your choice (1 or 2): " choice
 case $choice in
     1)
         echo "Installing ubuntu......."
+        git clone https://github.com/GREENFLAME1507/Minecraft-server-in-termux.git
+        cd Minecraft-server-in-termux
         cd os
         chmod +x ubuntu.sh
         ./ubuntu.sh
