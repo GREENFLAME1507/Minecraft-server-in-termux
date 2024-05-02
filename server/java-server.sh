@@ -11,18 +11,14 @@ read -p "Enter your choice (1 or 2): " choice
 case $choice in
     1)
         echo "Vanilla server installing......."
-        mkdir mc 
-        cd mc
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/ver/java-version-selector.sh
+        cd Minecraft-server-in-termux/server/
         chmod +x java-version-selector.sh
         ./java-version-selector.sh
         clear
         ;;
     2)
         echo "Fabric server installing.........."
-        mkdir mc 
-        cd mc
-        wget wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/ver/fabric-ver-selector.sh
+        Minecraft-server-in-termux/server/
         chmod +x fabric-ver-selector.sh
         ./fabric-ver-selector.sh
         clear
