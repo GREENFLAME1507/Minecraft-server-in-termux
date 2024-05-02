@@ -9,9 +9,10 @@
 To start 
 type the following the terminal
 ```
-apt update && apt upgrade-y
-apt install git
-apt install wget
+apt update
+apt upgrade 
+pkg install git
+pkg install wget
 wget https://raw.githubusercontent.com/Minecraft-server-in-termux/installer.sh
 
 ```
