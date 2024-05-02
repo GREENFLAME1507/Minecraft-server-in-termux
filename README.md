@@ -68,6 +68,14 @@ java -Xmx1G -Xms3G -jar server.jar nogui
 ```
 the G represents Gigabytes 3 represents the no of gb -Xmx1G <~ is the min val   -Xms3G<~ is the max val
 
+IN JAVA THE EULA.TXT NEEDS TO BE EDITED IN ORDER TO RUN THE SERVER 
+```
+nano eula.txt
+```
+inside nano 
+```
+eula=false ~> eula=true
+```
 
 ~> Bedrock
 to start the server just type in the cmd 
