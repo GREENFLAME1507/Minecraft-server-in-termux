@@ -17,7 +17,7 @@ clear
 clear
 ip -v 
 sudo apt install ufw -y 
-service ufw enable
+service ufw start
 
 sudo ufw allow 25565/tcp
 sudo ufw allow 25565/udp
