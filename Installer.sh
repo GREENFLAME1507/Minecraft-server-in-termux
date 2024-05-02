@@ -10,6 +10,9 @@ chmod +x fabric-ver-selector.sh
 chmod +x java-version-selector.sh
 cd 
 cd Minecraft-server-in-termux
+echo "verification complete!"
+echo "Moving on.."
+
 # Function to perform the installation
 install() {
 echo "Installing......."
