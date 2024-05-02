@@ -9,8 +9,8 @@ read -p "Enter your choice (1 or 2): " choice
 # Check the user's choice and execute the corresponding script
 case $choice in
     1)
-        echo "Innstalling ubuntu......."
-        wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/os/ubuntu.sh
+        echo "Installing ubuntu......."
+        cd os
         chmod +x ubuntu.sh
         ./ubuntu.sh
         clear 
@@ -22,7 +22,7 @@ case $choice in
     2)
         echo "It is recommende to install the provided os !"
         echo "anyway moving on "
-        wget https://raw.githubusercontent.com/GREENFLAME1507/Minecraft-server-in-termux/packages.sh
+        cd Minecraft-server-in-termux
         chmod +x packages.sh
         ./packages.sh
         ;;
