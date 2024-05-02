@@ -24,8 +24,8 @@ sudo ufw allow 25565/udp
 CLEAR
 
 echo "ENTER THE NUMBER OF THE OPTION YOU WANT:"
-echo "1. JAVA SERVER"
-echo "2. BEDROCK SERVER"
+echo "1. BEDROCK SERVER"
+echo "2. JAVA SERVER"
 read -p "Enter your choice (1 or 2): " choice
 
 
@@ -33,7 +33,7 @@ case $choice in
     1)
         clear
         echo "BEDROCK SERVER INSTALLING........"
-        cd Minecraft-server-in-termux/server/
+        cd server/
         chmod +x Bedrock-server.sh
         ./bedrock-server.sh
         ;;
