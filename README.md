@@ -2,6 +2,9 @@
 ## Minecraft server in termux 
    This project aims at installing and hosting minecraft in Android devices using the Termux app
 
+## Requirements
+   your device must atleast have 2GB of ram and 500MB of storage for installation
+
 ## Support
   As this project dosen't use specific aarch64 links this can be used in any linux distros which are 
   deb based
